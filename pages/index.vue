@@ -1,7 +1,7 @@
 <template>
-  <section class="container">
-    <img src="http://placehold.it/640x480" alt="">
-  </section>
+  <div class="home">
+    
+  </div>
 </template>
 
 <script>

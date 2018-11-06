@@ -10,11 +10,12 @@ module.exports = {
       { hid: 'description', name: 'description', content: 'Trousers' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      { rel: 'stylesheet', href: 'https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700,900&amp;subset=latin-ext'}
     ]
   },
   css: [
-    {src: '~/assets/scss/global.import.scss', lang: 'scss'}
+    {src: '~/assets/scss/import.scss', lang: 'scss'}
   ],
   /*
   ** Customize the progress bar color
