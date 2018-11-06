@@ -4,13 +4,16 @@
     <main class="main" :style="{'padding-top': mainContainerPadding + 'px'}">
       <nuxt/>
     </main>
+    <app-footer></app-footer>
   </div>
 </template>
 <script>
 import AppHeader from '~/components/header/AppHeader';
+import AppFooter from '~/components/footer/AppFooter';
 export default {
   components: {
-    AppHeader
+    AppHeader,
+    AppFooter
   },
   computed: {
     saleAlertIsActive () {

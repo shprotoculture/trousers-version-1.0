@@ -18,5 +18,8 @@ export default {
         font-size: 18px;
         font-weight: 400;
         letter-spacing: 1px;
+        &_white {
+            color: #fff;
+        }
     }
 </style>

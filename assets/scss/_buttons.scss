@@ -1,0 +1,17 @@
+.button {
+    display: inline-block;
+    padding: 12px 35px;
+    font-size: 13px;
+    font-weight: 600;
+    -webkit-transition: .25s ease;
+    transition: .25s ease;
+    &_transparent {
+        background: none;
+        border: 1px solid #000;
+        color: #000;
+        &:hover {
+            background: #000;
+            color: #fff;
+        }
+    }
+}
