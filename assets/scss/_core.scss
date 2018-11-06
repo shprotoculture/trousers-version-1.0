@@ -1,0 +1,49 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #fff;
+    min-width: 320px;
+    color: #000;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    vertical-align: middle;
+}
+
+header,
+section,
+footer,
+video {
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+ul li {
+    list-style: none;
+}
+
+input,
+button,
+textarea {
+    outline: none;
+}
+
+input[type="text"] {
+    -webkit-appearance: none;
+}
+
+button {
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    cursor: pointer;
+}
