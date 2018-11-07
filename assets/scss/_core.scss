@@ -38,13 +38,18 @@ input,
 button,
 textarea {
     outline: none;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    border-radius: 0px;
 }
 
 input[type="text"] {
     -webkit-appearance: none;
 }
 
+textarea {
+    -webkit-appearance: none;
+}
+
 button {
-    font-family: 'Roboto', Arial, Helvetica, sans-serif;
     cursor: pointer;
 }

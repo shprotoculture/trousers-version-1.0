@@ -82,6 +82,8 @@ export default {
     .footer {
         padding: 90px 0 30px;
         background: #191919;
+        position: relative;
+        z-index: 40;
         &__social-list {
             display: flex;
             margin-top: 15px;

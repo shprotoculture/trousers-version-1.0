@@ -39,9 +39,11 @@ module.exports = {
         }
       }
     },
-    plugins: [{ src: '~plugins/vue-slick', ssr: false }],
-    vendor: ['vue-slick'],
-    
+    plugins: [{ src: '~plugins/vue-slick', ssr: false }, { src: '~plugins/vue-the-mask', ssr: false }, { src: '~plugins/vue-scrollactive', ssr: false}],
+    vendor: ['vue-slick', 'vue-the-mask', 'vue-scrollactive'],
+    modules: [
+      'cookie-universal-nuxt',
+    ],
     postcss: [
       require('autoprefixer')({
         browsers: ['> 5%']

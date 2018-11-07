@@ -3,8 +3,7 @@
     padding: 12px 35px;
     font-size: 13px;
     font-weight: 600;
-    -webkit-transition: .25s ease;
-    transition: .25s ease;
+    transition: .25s;
     &_transparent {
         background: none;
         border: 1px solid #000;
@@ -13,5 +12,16 @@
             background: #000;
             color: #fff;
         }
+    }
+    &_disabled {
+        background: #f2f2f2;
+        border: 1px solid transparent;
+        color: #c6c6c6;
+        cursor: not-allowed;
+    }
+    &_solid_black {
+        background: #000;
+        color: #fff;
+        border: none;
     }
 }

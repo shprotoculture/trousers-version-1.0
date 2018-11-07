@@ -183,7 +183,6 @@ export default {
         &__text {
             margin-bottom: 60px;
         }
-        &__call-to-action {}
 
         @media screen and (max-width: 991px) {
             &__price {
